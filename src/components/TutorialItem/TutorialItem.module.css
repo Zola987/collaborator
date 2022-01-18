@@ -1,0 +1,79 @@
+.input {
+    padding-left: 5px;
+    border-radius: 5px;
+    height: 30px;
+    width: 240px;
+    border: 2px solid lightskyblue;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn {
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    border: 2px solid var(--text-primary-color);
+}
+
+.title {
+    width: 75px;
+    max-width: content;
+    min-height: fit-content;
+    height: 50px;
+    background-color: darkblue;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.author {
+    text-align: center;
+    width: 75px;
+    height: 50px;
+    background-color: darkblue;
+    margin-bottom: 10px;
+}
+
+.tutorial {
+    color: #fff;
+    display: flex;
+    background-color: cadetblue;
+    gap: 10px;
+    width: 80%;
+    height: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.removeBtn {
+    width: 150px;
+    height: 25px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.removeBtn:hover {
+    opacity: 0.6;
+    border: 2px solid white;
+    cursor: pointer;
+}
