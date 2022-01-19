@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ErrorPage from '@pages/ErrorPage';
 import ErrorBoundary from '@components/ErrorBoundary';
 import TutorialItem from '@components/TutorialItem/TutorialItem';
+import ShowOff from '@pages/ShowOff/ShowOff';
 // import ShowOff from '@pages/ShowOff';
 
 const About = lazy(() => import('@pages/About'));
@@ -111,6 +112,7 @@ function App() {
                             path="/timesheet/:day/:month/:year"
                             element={<TimesheetDetails />}
                         />
+                        <Route path="/showoff" element={<ShowOff />} />
                         <Route path="/testmb" element={<TestMB />} />
                         <Route path="/error" element={<ErrorPage />} />
                         <Route
