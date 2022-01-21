@@ -4,6 +4,7 @@ import ErrorPage from '@pages/ErrorPage';
 import ErrorBoundary from '@components/ErrorBoundary';
 import TutorialItem from '@components/TutorialItem/TutorialItem';
 import ShowOff from '@pages/ShowOff/ShowOff';
+import Form from '@pages/Form/Form';
 // import ShowOff from '@pages/ShowOff';
 
 const About = lazy(() => import('@pages/About'));
@@ -112,6 +113,7 @@ function App() {
                             path="/timesheet/:day/:month/:year"
                             element={<TimesheetDetails />}
                         />
+                        <Route path="/form" element={<Form />} />
                         <Route path="/showoff" element={<ShowOff />} />
                         <Route path="/testmb" element={<TestMB />} />
                         <Route path="/error" element={<ErrorPage />} />
